@@ -1,0 +1,28 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .selectInput {
+        height: 25px;
+    }
+
+    .dropdownList {
+        position: absolute;
+        z-index: 1;
+        margin-top: 45px;
+        width: 100%;
+        background-color: white;
+        border: solid 1px gray;
+        height: 150px;
+        overflow: auto;
+        input {
+            width: 100%;
+        }
+        div {
+            font-size: 14px;
+            padding: 10px;
+            border-bottom: solid 1px black;
+        }
+    }
+}
